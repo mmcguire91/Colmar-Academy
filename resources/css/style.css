@@ -1,33 +1,29 @@
+/* ITEMS TO ADDRESS:
+-Nav bar items are not properly spaced
+-Nav bar items flow into banner container
+*/
+
 .header {
   display: flex;
   height: 64px;
-  border-bottom: 1px dashed black;
+  border-bottom: 1px solid #cfd0cd;
 }
 
 .title {
   display: inline-flex;
-    flex-grow:1;
+  flex-grow:1;
+  align-items: center;
 }
 
 .nav-box {
   background-color: cyan;
   display: flex;
   align-items: center;
-}
-
-.nav-items {
-
-}
-
-.nav-items ul {
-  display: flex;
-
-}
+} 
 
 .nav-items li {
   display: inline;
   background-color: white;
-
   height: 64px;
   padding: 24px 8px;
 }
@@ -46,8 +42,7 @@ h1 span {
 
 .banner {
   display: flex;
-  border-bottom: 1px dashed black;
-  background-color: grey;
+  background-color: #cfd0cd;
 
 }
 
@@ -106,21 +101,99 @@ h1 span {
   display: flex;
 }
 
-.info-main-img {
+.info-left {
   padding: 32px 24px;
+  width: 60%;
+}
+
+.info-main-img img {
   display: flex;
+  width: 100%;
 }
 
 .info-right {
   display: flex;
+  flex-direction: column;
   width: 40%;
+}
+
+.orientation {
+  display: inline-flex;
+/*  padding-top: 32px;*/
+  border: 1px solid #cfd0cd;
+  justify-content: center;
+  align-items: center;
 }
 
 .orientation-img {
   width: 35%;
   height: auto;
+  padding: 32px 16px 16px 16px;
+}
+
+.orientation-img img {
+  width: 100%;
 }
 
 .orientation-txt {
   width: 65%;
+}
+
+.campus {
+  display: inline-flex;
+  border: 1px solid #cfd0cd;
+  justify-content: center;
+  align-items: center;
+}
+
+.campus-img {
+  padding: 16px 16px;
+  width: 35%;
+  height: auto;
+}
+
+.campus-img img {
+  width: 100%;
+}
+
+.campus-txt {
+  width:65%;
+/*  display: flex;
+  flex-direction: column;
+  justify-content: space-around;*/
+}
+
+.guest-lecture {
+  display: inline-flex;
+  border: 1px solid #cfd0cd;
+  justify-content: center;
+  align-items: center;
+}
+
+.lecture-img {
+  padding: 16px 16px;
+  width: 35%;
+  height: auto;
+}
+
+.lecture-img img {
+  width: 100%;
+}
+
+.lecture-txt {
+  width: 65%;
+}
+
+.read {
+  color: #0000EE;
+}
+
+.learning-container {
+  background-color: #cfd0cd;
+}
+
+.learning-title {
+  display: flex;
+  justify-content: center;
+  padding: 32px 0px 32px 0px;
 }
