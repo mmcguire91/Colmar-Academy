@@ -1,6 +1,6 @@
 /* ITEMS TO ADDRESS:
 -Nav bar items are not properly spaced
--Nav bar items flow into banner container
+-Learning tiles need a width defined to them
 */
 
 .header {
@@ -19,7 +19,7 @@
   background-color: cyan;
   display: flex;
   align-items: center;
-} 
+}
 
 .nav-items li {
   display: inline;
@@ -43,19 +43,16 @@ h1 span {
 .banner {
   display: flex;
   background-color: #cfd0cd;
-
 }
 
 .banner-left {
   display: flex;
   width: 60%;
-
 }
 
 .banner-img {
   padding: 32px 24px;
   display: flex;
-
 }
 
 .banner-img img {
@@ -168,6 +165,7 @@ h1 span {
   border: 1px solid #cfd0cd;
   justify-content: center;
   align-items: center;
+  background-color: #cfd0cd
 }
 
 .lecture-img {
@@ -187,7 +185,7 @@ h1 span {
 .read {
   color: #0000EE;
 }
-
+/* Start Learning */
 .learning-container {
   background-color: #cfd0cd;
 }
@@ -196,4 +194,146 @@ h1 span {
   display: flex;
   justify-content: center;
   padding: 32px 0px 32px 0px;
+}
+
+.tiles-container {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 72px 32px 72px;
+}
+
+.se-tile, .ca-tile, .design-tile {
+  padding-bottom: 32px;
+  background-color: white;
+}
+
+ .data-tile, .biz-tile, .mkt-tile {
+  background-color: white;
+}
+
+.se-image, .ca-image, .design-image, .data-image, .biz-image, .mkt-image {
+  height: auto;
+}
+
+/*.se-content {
+  background-color: white;
+}*/
+
+.course-title {
+  padding-top: 16px;
+}
+
+.courses {
+  text-transform: uppercase;
+  padding: 8px 0;
+  color: #5d5e65;
+}
+
+.course-description {
+  padding-bottom: 24px;
+  color: #5d5e65;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.course-title, .courses, .course-description {
+  padding-left: 16px;
+}
+
+.ca-tile, .biz-tile {
+  margin: 0px 32px;
+}
+
+/* Thesis Exhibit Container */
+.thesis-title {
+  display: flex;
+  justify-content: center;
+  padding: 32px 0px 32px 0px;
+}
+
+.thesis-content {
+ display: flex;
+}
+
+.thesis-left {
+  padding: 0 24px 0 24px;
+  width: 60%;
+}
+
+.thesis-vid video {
+  display: flex;
+  width: 100%;
+  border: 1px dashed blue;
+}
+
+.thesis-right {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+}
+
+.fisma {
+  display: inline-flex;
+/*  padding-top: 32px;*/
+  justify-content: center;
+  align-items: center;
+  background-color: #cfd0cd;
+}
+
+.fisma-img {
+  width: 35%;
+  height: auto;
+  padding: 16px 16px;
+}
+
+.fisma-img img {
+  width: 100%;
+}
+
+.fisma-content {
+  width: 65%;
+}
+
+
+.now-then-story {
+  display: inline-flex;
+/*  padding-top: 32px;*/
+  justify-content: center;
+  align-items: center;
+}
+
+.now-then-img {
+  width: 35%;
+  height: auto;
+  padding: 16px 16px;
+}
+
+.now-then-img img {
+  width: 100%;
+}
+
+.now-then-content {
+  width: 65%;
+}
+
+
+/* Footer */
+.footer {
+  border-top: 1px solid #cfd0cd;
+  display: flex;
+}
+
+.copyright {
+  padding-top: 16px;
+  padding-left: 24px;
+  flex-grow: 1;
+}
+
+.terms {
+  padding-top: 16px;
+  padding-right: 24px;
+}
+
+.terms li {
+  display: inline;
 }
