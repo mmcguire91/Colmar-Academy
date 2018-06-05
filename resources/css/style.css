@@ -19,6 +19,7 @@
   background-color: cyan;
   display: flex;
   align-items: center;
+  width: 25%;
 }
 
 .nav-items li {
