@@ -25,10 +25,11 @@
   display: inline;
   background-color: white;
   height: 64px;
-  padding: 24px 8px;
+  padding: 24px 0;
 }
 
 .nav-items li a {
+display: inline;
   color: black;
 }
 
@@ -69,7 +70,7 @@ h1 span {
 
 .banner-content {
   z-index: 10;
-  width: 50%;
+  width: 55%;
   display: flex;
   flex-wrap: wrap;
 }
@@ -263,7 +264,6 @@ h1 span {
 .thesis-vid video {
   display: flex;
   width: 100%;
-  border: 1px dashed blue;
 }
 
 .thesis-right {
