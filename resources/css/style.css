@@ -1,6 +1,9 @@
 /* ITEMS TO ADDRESS:
 -Learning tiles need a width defined to them
 */
+* {
+  box-sizing: border-box;
+}
 
 .header {
   display: flex;
