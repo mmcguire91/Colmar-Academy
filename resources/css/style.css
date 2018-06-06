@@ -29,7 +29,6 @@
 .nav-items li {
   display: inline;
   background-color: white;
-  height: 64px;
   padding: 24px 0px;
   justify-content: space-between;
 }
