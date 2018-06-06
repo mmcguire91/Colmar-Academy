@@ -1,5 +1,4 @@
 /* ITEMS TO ADDRESS:
--Nav bar items are not properly spaced
 -Learning tiles need a width defined to them
 */
 
@@ -29,7 +28,7 @@
 .nav-items li {
   display: inline;
   background-color: white;
-  padding: 24px 0px;
+  padding: 23px 0px;
   justify-content: space-between;
 }
 
