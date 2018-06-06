@@ -19,21 +19,26 @@
   background-color: cyan;
   display: flex;
   align-items: center;
-  width: 25%;
+  width: 20%;
 }
 
 .nav-items li {
   display: inline;
   background-color: white;
   height: 64px;
-  padding: 24px 8px;
+  padding: 24px 0px;
+  justify-content: space-between;
 }
 
 .nav-items ul {
 display: flex;
-justify-content: space-around;
-width: 100%;
+justify-content: space-between;
+width: 115%;
 align-items: center;
+}
+
+ul {
+  padding: 0px;
 }
 
 .nav-items li a {
