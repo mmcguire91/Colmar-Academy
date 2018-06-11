@@ -1,5 +1,5 @@
 /* ITEMS TO ADDRESS:
--Learning tiles need a width defined to them
+-Responsive design of page
 */
 * {
   box-sizing: border-box;
@@ -68,8 +68,6 @@ h6 {
 
 .header {
   display: flex;
-/*  height: 64px;*/
-/*  border-bottom: 1px solid #cfd0cd;*/
   justify-content: space-between;
 }
 
@@ -79,29 +77,18 @@ h6 {
 }
 
 .nav-box {
-/*  background-color: cyan;*/
   display: flex;
-/*  align-items: center;*/
-/*  width: 20%; */
 }
 
-/*.nav-items {
-  width: 100%;
-}*/
-
 .nav-items li {
-/*  display: inline;*/
   list-style-type: none;
   background-color: white;
   padding: 10px;
-/*  padding: 23px 0px;*/
   justify-content: space-between;
 }
 
 .nav-items ul {
 display: flex;
-/*justify-content: space-between;*/
-/*align-items: center;*/
 }
 
 ul {
@@ -109,7 +96,6 @@ ul {
 }
 
 .nav-items li a {
-/*display: inline;*/
   color: black;
 }
 
@@ -197,7 +183,6 @@ h1 span {
 
 .orientation {
   display: inline-flex;
-/*  padding-top: 32px;*/
   border: 1px solid #cfd0cd;
   justify-content: center;
   align-items: center;
@@ -236,9 +221,6 @@ h1 span {
 
 .campus-txt {
   width:65%;
-/*  display: flex;
-  flex-direction: column;
-  justify-content: space-around;*/
 }
 
 .guest-lecture {
@@ -354,7 +336,6 @@ h1 span {
 
 .fisma {
   display: inline-flex;
-/*  padding-top: 32px;*/
   justify-content: center;
   align-items: center;
   background-color: #cfd0cd;
@@ -377,7 +358,6 @@ h1 span {
 
 .now-then-story {
   display: inline-flex;
-/*  padding-top: 32px;*/
   justify-content: center;
   align-items: center;
 }
