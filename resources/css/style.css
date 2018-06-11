@@ -283,22 +283,19 @@ h1 span {
   padding: 0 72px 32px 72px;
 }
 
-.se-tile, .ca-tile, .design-tile {
+.course-tile {
   padding-bottom: 32px;
   background-color: white;
+
 }
 
- .data-tile, .biz-tile, .mkt-tile {
-  background-color: white;
-}
-
-.se-image, .ca-image, .design-image, .data-image, .biz-image, .mkt-image {
+.course-image {
   height: auto;
 }
 
-/*.se-content {
-  background-color: white;
-}*/
+.course-tile, .course-image {
+  width: 30%;  
+}
 
 .course-title {
   padding-top: 16px;
@@ -321,8 +318,9 @@ h1 span {
   padding-left: 16px;
 }
 
-.ca-tile, .biz-tile {
-  margin: 0px 32px;
+
+.course-tile {
+  margin: 0px 16px;
 }
 
 /* Thesis Exhibit Container */
