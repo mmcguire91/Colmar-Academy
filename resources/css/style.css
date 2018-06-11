@@ -16,6 +16,55 @@ h1 {
     font-weight: bold;
 }
 
+h2 {
+    display: block;
+    font-size: 1.5rem;
+    margin-top: 0.83rem;
+    margin-bottom: 0.83rem;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+}
+
+h3 {
+    display: block;
+    font-size: 1.17rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+}
+
+h4 {
+    display: block;
+    font-size: 1rem;
+    margin-top: 1.33rem;
+    margin-bottom: 1.33rem;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+}
+
+h5 {
+    display: block;
+    font-size: .83rem;
+    margin-top: 1.67rem;
+    margin-bottom: 1.67rem;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+}
+
+h6 {
+    display: block;
+    font-size: .67rem;
+    margin-top: 2.33rem;
+    margin-bottom: 2.33rem;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+}
 
 .header {
   display: flex;
@@ -295,6 +344,10 @@ h1 span {
 .thesis-vid video {
   display: flex;
   width: 100%;
+}
+
+.thesis-vid-story {
+  padding-bottom: 32px;
 }
 
 .thesis-right {
