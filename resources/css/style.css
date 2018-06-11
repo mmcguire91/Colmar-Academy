@@ -287,9 +287,11 @@ h1 span {
   padding-bottom: 32px;
   background-color: white;
   width: 30%;
+  margin: 16px 16px;
+
 }
 
-.course-image {
+.course-image img {
   height: auto;
   width: 100%
 }
@@ -317,7 +319,6 @@ h1 span {
 
 
 .course-tile {
-  margin: 0px 16px;
 }
 
 /* Thesis Exhibit Container */
