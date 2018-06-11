@@ -286,15 +286,12 @@ h1 span {
 .course-tile {
   padding-bottom: 32px;
   background-color: white;
-
+  width: 30%;
 }
 
 .course-image {
   height: auto;
-}
-
-.course-tile, .course-image {
-  width: 30%;  
+  width: 100%
 }
 
 .course-title {
