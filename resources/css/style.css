@@ -293,7 +293,7 @@ h1 span {
 }
 
 
-/* Mobile Information Container */
+/* MOBILE Information Container */
 @media only screen and (max-width: 760px) {
   .info-left {
     display: none;
@@ -356,7 +356,6 @@ h1 span {
   background-color: white;
   width: 30%;
   margin: 16px 16px;
-
 }
 
 .course-image img {
@@ -383,10 +382,6 @@ h1 span {
 
 .course-title, .courses, .course-description {
   padding-left: 16px;
-}
-
-
-.course-tile {
 }
 
 /* Thesis Exhibit Container */
@@ -441,7 +436,6 @@ h1 span {
   width: 65%;
 }
 
-
 .now-then-story {
   display: inline-flex;
   justify-content: center;
@@ -462,6 +456,35 @@ h1 span {
   width: 65%;
 }
 
+/* MOBILE Thesis Exhibit & Footer Container */
+@media only screen and (max-width: 760px) {
+    .thesis-left {
+      width: 100%;
+      padding: 0;
+    }
+
+    .thesis-vid video {
+      width: 100%;
+      height: auto;
+      padding-bottom: 24px;
+    }
+
+    .thesis-vid-story {
+      display: none;
+    }
+
+    .thesis-right {
+      display: none;
+    }
+
+    .terms {
+      display: none;
+    }
+
+    .copyright {
+      padding: 16px 0;
+    }
+}
 
 /* Footer */
 .footer {
