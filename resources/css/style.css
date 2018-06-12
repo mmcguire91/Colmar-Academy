@@ -200,12 +200,17 @@ h1 span {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 28rem;
+    height: 30rem;
   }
 
   .banner-left {
     border: 1px solid red;
     width: 100%;
+    height: 18rem;
+  }
+
+  .banner-img {
+  padding: 0;
   }
 
   .banner-left img {
@@ -221,10 +226,15 @@ h1 span {
     border: 1px dashed blue;
   }
 
-  .banner-content, .banner-btn {
+  .banner-content {
     width: 100%;
     height: auto;
   }
+
+/*  .banner-btn, span {
+   width: 80%;
+   margin-bottom: 32px;
+ }*/
 }
 
 /* Desktop Info Container */
