@@ -298,6 +298,40 @@ h1 span {
   .info-left {
     display: none;
   }
+
+  .info-right {
+    width: 100%;
+  }
+
+  .feature {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 32px 0;
+  }
+
+  .guest-lecture {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    padding: 32px 0;
+  }
+
+  .feature-img, .orientation-img {
+    width: 100%;
+    overflow: hidden;
+  }
+
+  .feature-img img, .orientation-img img {
+    display: block;
+    height: 15rem;
+    margin:-15% 0;
+  }
+
+  .feature-txt {
+    width: 90%;
+  }
 }
 
 /* Start Learning */
