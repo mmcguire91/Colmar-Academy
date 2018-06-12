@@ -66,9 +66,13 @@ h6 {
     font-weight: bold;
 }
 
-.header {
+header {
   display: flex;
   justify-content: space-between;
+}
+
+header .mobile {
+  display: none;
 }
 
 .title {
@@ -76,7 +80,7 @@ h6 {
   align-items: center;
 }
 
-.nav-box {
+.nav-desktop {
   display: flex;
 }
 
@@ -105,6 +109,33 @@ h1 span {
 
 .title h1 {
   color: grey;
+}
+
+/* MOBILE Nav */
+@media only screen and (max-width: 760px) {
+  header .nav-desktop {
+    display: none;
+  }
+
+  header .mobile {
+    display: block;
+    width: 100%;
+  }
+
+  header .title {
+    display: none;
+  }
+
+  header .mobile ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+  }
+
+  header .mobile li {
+    padding: 0;
+  }
 }
 
 .banner {
@@ -159,6 +190,28 @@ h1 span {
 
 .banner-btn a {
   color: white;
+}
+
+/* MOBILE Banner */
+
+@media only screen and (max-width: 760px) {
+  .banner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 28rem;
+  }
+
+  .banner-left img {
+    height: auto;
+    width: 100%;
+  }
+
+  .banner-right .banner-content h1 {
+    display: flex;
+    margin: 32px 16px;
+  }
 }
 
 .info-container {
