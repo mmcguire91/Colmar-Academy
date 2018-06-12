@@ -203,17 +203,31 @@ h1 span {
     height: 28rem;
   }
 
+  .banner-left {
+    border: 1px solid red;
+    width: 100%;
+  }
+
   .banner-left img {
     height: auto;
     width: 100%;
   }
 
-  .banner-right .banner-content h1 {
+  .banner-right {
     display: flex;
-    margin: 32px 16px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    border: 1px dashed blue;
+  }
+
+  .banner-content, .banner-btn {
+    width: 100%;
+    height: auto;
   }
 }
 
+/* Desktop Info Container */
 .info-container {
   display: flex;
 }
