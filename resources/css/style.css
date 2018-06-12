@@ -82,6 +82,7 @@ header .mobile {
 
 .nav-desktop {
   display: flex;
+  align-items: center;
 }
 
 .nav-items li {
@@ -165,7 +166,7 @@ h1 span {
 
 .banner-right {
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: center;
   color: black;
   width: 40%;
